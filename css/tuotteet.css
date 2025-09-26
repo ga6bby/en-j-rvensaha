@@ -39,6 +39,7 @@ nav {
 
 nav a {
     color: white;
+    font-family: 'Playfair Display', serif;
     font-size: 18px;
     margin: 0 20px;
     text-decoration: none;
