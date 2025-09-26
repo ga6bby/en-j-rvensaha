@@ -14,7 +14,7 @@ function updateDateTime() {
     var weekdays = ["Sunnuntai", "Maanantai", "Tiistai", "Keskiviikko", "Torstai", "Perjantai", "Lauantai"];
     var weekday = weekdays[now.getDay()];
 
-    var datetimeString = weekday + day + '.' + month + '.' + year + ' | Kellonaika: ' + hours + ':' + minutes + ':' + seconds;
+    var datetimeString = weekday '.' + day + '.' + month + '.' + year + ' | Kellonaika: ' + hours + ':' + minutes + ':' + seconds;
 
     var datetimeElement = document.getElementById("current-datetime");
     if (datetimeElement) {
