@@ -35,11 +35,11 @@ nav {
     background-color: #7d7d7d;
     padding: 10px 0;
     text-align: center;
-    font-family: 'Playfair Display', serif;
 }
 
 nav a {
     color: white;
+    font-family: 'Playfair Display', serif;
     font-size: 18px;
     margin: 0 20px;
     text-decoration: none;
