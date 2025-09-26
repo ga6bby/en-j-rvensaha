@@ -11,7 +11,7 @@ function updateDateTime() {
     if (minutes < 10) minutes = '0' + minutes;
     if (seconds < 10) seconds = '0' + seconds;
 
-    var weekdays = ["Sunnuntai", "Maanantai", "Tiistai", "Keskiviikko", "Torstai", "Perjantai", "Lauantai"];
+    var weekdays = ["sunnuntai", "maanantai", "tiistai", "keskiviikko", "torstai", "perjantai", "Lauantai"];
     var weekday = weekdays[now.getDay()];
 
     var datetimeString =' Tänään on ' + weekday + ' ' + day + '.' + month + '.' + year +
